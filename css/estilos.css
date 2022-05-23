@@ -1,0 +1,119 @@
+body {
+    background-color: antiquewhite;
+}
+.navbar {
+    background-color: rgb(79, 12, 12);
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 20px;
+}
+.navbar .navbar-brand {
+    color:antiquewhite;
+}
+.navbar .nav-link {
+    color: rgb(202, 150, 150);
+}
+.dropdown-menu .dropdown-item {
+    color: rgb(33, 6, 6);
+}
+p {
+    color: rgb(171, 141, 102);
+}
+#destacado {
+    color:rgb(179, 179, 231);
+}
+h1, h2, h5 {
+    font-family: 'Quicksand', sans-serif;
+    color:rgb(79, 12, 12);
+    font-weight: bold;
+}
+.hero {
+    background: url(../img/fondocopa.jpg) no-repeat;
+    background-size: cover;
+    height: 50vh;
+    min-height: 600px;
+    color: antiquewhite;
+}
+.main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.post {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999;
+    background-color: rgb(243, 210, 210);
+}
+.post .post-title a {
+    color: rgb(85, 59, 59);
+    font-family: 'Quicksand', sans-serif;
+}
+.post .thumb {
+    margin-right: 10px;
+    width: 40%;
+}
+.post img {
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+}
+.post .contenedor-botones {
+    width: 100%;
+}
+.post .post-fecha {
+    font-style: italic;
+}
+.lista-novedades {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.lista-novedades li a {
+    margin: 4px 0;
+}
+.lista-novedades li a {
+    background-color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #a0a0a0;
+    transition: all .25 ease-in-out;
+    display: block;
+}
+.lista-novedades li a:hover {
+    color: rgb(79, 12, 12);
+    background-color: #dadada;
+}
+.lista-novedades li a img {
+    width: 120px;
+    height: 50px;
+    filter: grayscale();
+    transition: all .25 ease-in-out;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+.lista-novedades li a:hover img {
+    filter: none;
+    margin-right: 1.4rem;
+    opacity: 1;
+}
+.testimonios {
+    background-color: antiquewhite;
+    padding-bottom: 2rem;
+    font-family: 'Quicksand', sans-serif;
+}
+.testimonios .carousel-item {
+    text-align: center;
+    padding: 20px 10px;
+}
+.testimonios .carousel-item img {
+    background-size: cover;
+    height: 25vh;
+    min-height: 100px;
+    color: antiquewhite;
+}
+.testimonios .carousel-item p {
+    color: aliceblue;
+}
+.testimonios .carousel-item h5 {
+    color: aliceblue;
+}
