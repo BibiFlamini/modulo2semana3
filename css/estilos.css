@@ -1,5 +1,5 @@
 body {
-    background-color: antiquewhite;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
 }
 .navbar {
     background-color: rgb(79, 12, 12);
@@ -17,6 +17,10 @@ body {
 }
 p {
     color: rgb(171, 141, 102);
+    text-align: justify;
+}
+.contenedor-botones .btn {
+    box-shadow: 10px 5px 5px black;
 }
 #destacado {
     color:rgb(179, 179, 231);
@@ -25,6 +29,9 @@ h1, h2, h5 {
     font-family: 'Quicksand', sans-serif;
     color:rgb(79, 12, 12);
     font-weight: bold;
+}
+.jumbotron .titulo-blog {
+    text-shadow: 0 0 3px rgb(204, 143, 143);
 }
 .hero {
     background: url(../img/fondocopa.jpg) no-repeat;
@@ -37,11 +44,15 @@ h1, h2, h5 {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+#historia {
+    background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+    margin-bottom: 20px;
+}
 .post {
     padding-bottom: 20px;
     margin-bottom: 20px;
     border-bottom: 1px solid #999;
-    background-color: rgb(243, 210, 210);
+    background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
 }
 .post .post-title a {
     color: rgb(85, 59, 59);
@@ -54,13 +65,19 @@ h1, h2, h5 {
 .post img {
     width: 300px;
     float: left;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 .post .contenedor-botones {
     width: 100%;
 }
 .post .post-fecha {
     font-style: italic;
+}
+.post .post-contenido {
+    margin-right: 20px;
+}
+.card {
+    width: 18rem;
 }
 .lista-novedades {
     margin: 0;
@@ -97,7 +114,6 @@ h1, h2, h5 {
     opacity: 1;
 }
 .testimonios {
-    background-color: antiquewhite;
     padding-bottom: 2rem;
     font-family: 'Quicksand', sans-serif;
 }
@@ -116,4 +132,22 @@ h1, h2, h5 {
 }
 .testimonios .carousel-item h5 {
     color: aliceblue;
+}
+#nosotros {
+    background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
+}
+.card {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+aside {
+    float: right;
+    width: 40%;
+}
+.lista-categorias {
+    list-style: none;
+}
+footer {
+    background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+ background-blend-mode: screen;
 }
